@@ -88,3 +88,61 @@ switch (weekDay) {
 
 console.log('===============');
 console.log('CILOS/LOOPS');
+
+let gasTank = 50;
+
+
+while ( gasTank > 0 ) {
+    console.log('El tanque de gas tiene', gasTank);
+    gasTank--;
+}
+
+console.log('Tanque vacío');
+console.log('===============');
+
+do  {
+    console.log('El tanque de gas tiene', gasTank);
+    gasTank--;
+} while ( gasTank > 0 );
+
+console.log('Tanque vacío');
+console.log('===============');
+
+for (let i:number = 1; i <= 10; i++) {
+    console.log('let i', i);
+}
+
+console.log('===============');
+// Definir variables y constantes
+
+let baseMultiplicator: number = 10;//+
+let limitMultiplicator: number = 0;//+
+
+while (limitMultiplicator != 50) {
+
+    let resultado:number = baseMultiplicator * 1;
+    console.log('10 x 1 es :', resultado);
+
+    let resultado2:number = baseMultiplicator * 2;
+    console.log('10 x 2 es :', resultado2);
+
+    let resultado3:number = baseMultiplicator * 3;
+    console.log('10 x 3 es :', resultado3);
+
+    let resultado4:number = baseMultiplicator * 4;
+    console.log('10 x 4 es :', resultado4);
+
+    let resultado5:number = baseMultiplicator * 5;
+    console.log('10 x 5 es :', resultado5);
+
+    limitMultiplicator = resultado5;
+    console.log('Se llego al maximo de operaciones, ejecute de nuevo.')
+
+}
+
+console.log('===============');
+
+for (let i =1; i <= 5; i++) {
+    console.log('Multiplicando ... ' + 10 + 'x' + i, 'eso es igual a =', 10*i);
+    console.log('Se llego al maximo de operaciones, ejecute de nuevo.')
+}
