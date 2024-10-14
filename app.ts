@@ -1,11 +1,9 @@
-console.log('Inicio de Programa')
+let gasTank = 50;
 
-let isTired = true;
 
-if (isTired === true) {
-    
+while ( gasTank > 0 ) {
+    console.log('El tanque de gas tiene', gasTank);
+    gasTank--;
 }
 
-
-
-console.log('Inicio de Programa')
+console.log('Tanque vacío');
