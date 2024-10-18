@@ -146,3 +146,11 @@ for (let i =1; i <= 5; i++) {
     console.log('Multiplicando ... ' + 10 + 'x' + i, 'eso es igual a =', 10*i);
     console.log('Se llego al maximo de operaciones, ejecute de nuevo.')
 }
+
+console.log('===============');
+console.log('=Practicas For=');
+
+for (let i:number=0; i <= 50;) {
+    i += 5;
+    console.log('Numero :', i);
+}
