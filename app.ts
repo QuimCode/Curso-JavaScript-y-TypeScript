@@ -12,3 +12,14 @@ while (num <= 10) {
     console.log(num);
     num++;
 }
+
+
+let numero: number = 5;
+let factorial: number = 1;
+let contador: number = numero;
+
+while (contador > 0) {
+    factorial *= contador;
+    contador--;
+}
+console.log(`El factorial de ${numero} es: ${factorial}`);
