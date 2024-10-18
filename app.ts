@@ -23,3 +23,11 @@ while (contador > 0) {
     contador--;
 }
 console.log(`El factorial de ${numero} es: ${factorial}`);
+
+let palabra: string = "TypeScript";
+let palabraInvertida: string = "";
+
+for (let i = palabra.length - 1; i >= 0; i--) {
+    palabraInvertida += palabra[i];
+}
+console.log("Palabra invertida:", palabraInvertida);
