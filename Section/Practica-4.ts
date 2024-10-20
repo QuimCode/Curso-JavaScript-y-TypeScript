@@ -35,3 +35,6 @@ for(let i=0; i <= limitOfmultiplication; i++ ) {
     printMultiplication(i, baseOfMultiplication)
 }
 
+import { printMultiplicationRedux } from "../helpers/print-multiplication-table";
+
+printMultiplicationRedux(5)

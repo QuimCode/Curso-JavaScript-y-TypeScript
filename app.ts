@@ -1,3 +1,6 @@
-import { printMultiplicationRedux } from "./helpers/print-multiplication-table";
+let flowers = ["Rosa","Liryio","Menta"];
+let oneFlower = flowers[0];
 
-printMultiplicationRedux(5)
+let people:string[] = ["Fernando","Luis","Quimey"];
+
+console.log( people[0] );
