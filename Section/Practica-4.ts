@@ -26,3 +26,12 @@ console.log('El resultado de la division es:', total4);
 let total:number = total1 + total2 + total3 + total4;
 console.log('El resultado de las operacion sumadas son un total de: ', total);
 
+import { printMultiplication } from "../helpers/print-multiplication-table";
+
+let baseOfMultiplication: number = 5;
+let limitOfmultiplication: number = 10;
+
+for(let i=0; i <= limitOfmultiplication; i++ ) {
+    printMultiplication(i, baseOfMultiplication)
+}
+
