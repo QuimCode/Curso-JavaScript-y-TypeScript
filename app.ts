@@ -13,6 +13,6 @@ for (let y = 0; y <= 5; y++) {
     console.log(people[y]);
 }
 
-for (let contador:number = 0; y <= ) {
-
+for (let contador:number = 0; contador <= numbersLibrary.length; contador++ ) {
+    console.log(numbersLibrary[contador]);
 }
