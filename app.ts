@@ -1,18 +1,30 @@
-let flowers:string[] = ["Rosa","Liryio","Menta"];
-let oneFlower = flowers[0];
+import { isString } from "util"
+import { isStringObject } from "util/types"
 
-let employers:string[] = ["Fernando","Luis","Quimey"];
-let salariesPeople: number[] = [1500, 2900, 8500]
-let ahourEmployers:string[] = ["8:AM - 5:PM","10:AM - 7:PM", "8:PM - 5:AM"];
-
-// for (let x = 0; x <= 2; x++) {
-//     console.log( flowers[x] );
-// }
-
-// for (let y = 0; y <= 5; y++) {
-//     console.log(people[y]);
-// }
-
-for (let contador:number = 0; contador <= 2; contador++ ) {
-    console.log("El empleado " + employers[contador] + " Gana un sueldo neto de: " + salariesPeople[contador] + " Pesos, trabajando la franja horaria de: " + ahourEmployers[contador]);
+let auto = {
+    color: 'blanco',
+    traccion: '4x4',
+    llantas: 4,
+    puertas: 5,
+    marca: 'Jeep'
 }
+
+let persona = {
+    nombre: 'Maria',
+    años: 23,
+    gustos: ["Musica", "Juegos"],
+    esLatina: true,
+    estaRegistrada: true,
+
+    impresionInfo() {
+        if (persona.estaRegistrada === false) {
+            console.log('Usted no esta registrada');
+            return;
+        } else {
+            let objectString = persona.nombre + ' Tiene la edad de: ' + persona.años + ' y sus gustos son la ' + persona.gustos;
+            console.log(objectString);
+        }
+    }
+}
+
+persona.impresionInfo();
