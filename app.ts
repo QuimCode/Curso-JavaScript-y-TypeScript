@@ -62,3 +62,39 @@ console.log('=============');
 console.log(smartTv);
 console.log('=============');
 console.log(youtubeVideo);
+
+console.log('=============');
+// ARREGLOS DE OBJETOS
+
+let fernando = {
+    nombre: 'Fernando',
+    apellido: 'Perez',
+    edad: 30,
+    gustos: ['Cine', 'Deportes', 'Viajar'],
+    esAmigoDe: ['Maria', 'Pedro', 'Juan'],
+    esAmigaDeMaria: true,
+    esAmigaDePedro: false,
+    esAmigaDeJuan: false,
+}
+
+let luis = {
+    nombre: 'Luis',
+    apellido: 'Gomez',
+    edad: 25,
+    gustos: ['Musica', 'Deportes', 'Cocinar'],
+    esAmigoDe: ['Maria', 'Fernando', 'Juan'],
+    esAmigaDeMaria: false,
+    esAmigaDeFernando: true,
+    esAmigaDeJuan: true,
+}
+
+let maria = {
+    nombre: 'Maria',
+    apellido: 'Garcia',
+    edad: 28,
+    gustos: ['Musica', 'Deportes', 'Cocinar'],
+    esAmigoDe: ['Fernando', 'Luis', 'Juan'],
+    esAmigaDeFernando: true,
+    esAmigaDeLuis: true,
+    esAmigaDeJuan: false,
+}
