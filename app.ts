@@ -98,3 +98,10 @@ let maria = {
     esAmigaDeLuis: true,
     esAmigaDeJuan: false,
 }
+
+let people = [fernando, maria, luis];
+
+for (let i = 0; i <= people.length; i++ ) {
+    let person = people[i];
+    console.log(person.nombre + person.apellido + ' es ');
+}
